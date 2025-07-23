@@ -1,2 +1,18 @@
-# CMB-MFSU-Fractal-Simulaci-n-del-Fondo-C-smico-de-Microondas
-# Fractal Modeling of the Cosmic Microwave Background (CMB) This notebook demonstrates how the Unified Fractal-Stochastic Model (MFSU) applies to simulate and analyze the CMB. We compare real Planck data with MFSU-based simulations, and evaluate the presence of the Franco constant δ ≈ 0.921.
+
+# Wavelet Analysis of CMB – MFSU Validation
+
+This folder contains code and output for applying a wavelet transform to a temperature profile of the Cosmic Microwave Background (CMB) using the SMICA map from Planck DR3.
+
+## Files
+
+- `fractal_analysis.py`: Python script performing the analysis.
+- `wavelet_fractal_plot.png`: Log-log plot of wavelet power vs scale.
+- `result.txt`: Estimated fractal dimension (Df) based on the slope.
+
+## Interpretation
+
+The estimated slope allows us to compute the fractal dimension Df using:
+
+    Df = (5 + slope) / 2
+
+This supports the MFSU model if Df ≈ 0.92.

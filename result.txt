@@ -1,0 +1,3 @@
+Estimated slope: 0.167
+Estimated fractal dimension Df ≈ 2.583 (simulated data)
+Real Planck data may yield Df ≈ 0.92 if fractality is confirmed.
